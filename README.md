@@ -6,6 +6,7 @@
 - 本リポジトリのコンテンツの使用に伴う不具合等については一切の責任を負いかねます.  
 
 ## 連絡先
-- [水野　忠快](https://github.com/tadahayamiz)  
-- tadahaya@gmail.com  
-- tadahaya@mol.f.u-tokyo.ac.jp  
+- PI: [水野　忠快](https://github.com/tadahayamiz)  
+- email  
+    - tadahaya@gmail.com  
+    - tadahaya@mol.f.u-tokyo.ac.jp  
