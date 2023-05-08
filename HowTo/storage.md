@@ -1,0 +1,68 @@
+# クライアントPCのデータ構造とストレージについて
+クライアントPCでは普段のデータまとめ(スライド作成)などを行う.  
+これらのデータの揮発を, データ構造を定めた上で作業保全とバックアップとに分けて管理する.  
+
+
+## **google drive共有用ディレクトリ**
+作業保全用, 更新頻度が高いものはgoogle driveで常にクラウドでバックアップする.  
+
+
+    2008_MizunoT  
+    ├─notebook  
+    ├─paper  
+    ├─slide  
+    ├─conference  
+    ├─publication  
+    └─discussion  
+
+
+notebook
+これまでと同じ 
+計算機サーバーやクラウドサーバーの使用者が増えているので, 日々使用後は使ったnotebookをこのdirectoryに保存することを忘れないように
+ただし頻繁に使う入力ファイルはnotebookの直下にdirを作ってそこから引用する, 不要な出力ファイルなどは削除する, といった癖をつける 
+paper
+Excelファイルによる管理をベースにし, 読了後書き込みのないものなどは削除する
+パワーポイントでまとめる癖をつける
+discussion
+これまでどおり 
+slide
+
+
+### **水野班リポジトリの準備**
+1. [mizuno-group](https://github.com/mizuno-group)にリポジトリを作成する。（main）  
+2. 自身が改変するブランチを作成する。（devなど）  
+3. mainブランチに対してprotection ruleを追加する。基本はデフォルトの```Require a pull request before merging```で```Require approvals (n=1)```を設定すれば良いか。  
+
+
+### **個人リポジトリにフォークする**
+1. 上記の自身が改変するブランチ（dev）をForkする。Fork先のownerには自身のアカウントを指定する。  
+2. Fork先の個人リポジトリでは基本的にmainブランチで作業する。  
+
+
+### **個人main→水野班devにmergeして芝を生やす**
+1. 個人リポジトリのbranchを選択する欄の下に```This branch is n commits ahead of mizuno-group:main.```と表示があることを確認。  
+2. ```n commits ahead```をクリックすると差分を確認できる。  
+3. 個人のmainブランチを水野班のdevブランチに反映する設定。```base repository: mizuno-group/XXX``` ```base: dev``` ＜== ```head repository: mizuno-group/XXX``` ```base: main```  
+4. create pull request  
+5. conflictsが発生しないことを確認し、```merge pull request```からの```confirm merge```。  
+
+上記は個人が独立して実行可能である。Fork元のdevにmergeすることでようやく芝が生える。  
+※ [芝を生やす](https://qiita.com/sta/items/2c1f0252a6a9ce5e2087)とは。
+
+
+### **水野班dev→水野班mainにmerge**
+1. 水野班のdevブランチに移動し、```n commits ahead```をクリックして差分を確認。  
+2. ```base: main``` ＜== ```compare: dev```の設定を確認。  
+3. ```create pull request```  
+4. おそらく```✖ Review required```と```✖ Merging is blocked```とエラーが表示される。  
+5. 第三者（基本は水野先生）がpull requestを確認し、承認することでmergeが完了する。  
+
+
+***
+##### **運用方針変更の意義**
+- 個人がどのような開発に取り組んできたかを可視化する。  
+- 開発段階から研究内容を積極的に対外的に発信する。  
+
+##### **更新情報**
+- 230507 [grooby-phazuma](https://github.com/groovy-phazuma), [tadahayamiz](https://github.com/tadahayamiz)  
+- test  
