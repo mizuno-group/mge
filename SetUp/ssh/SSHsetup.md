@@ -44,30 +44,35 @@
     ```
 1. /etc/ssh/sshd_configを編集する
     ``` conf
-    Port 49152
+    Port zzz  #デフォルトは22だがそのままはセキュリティの不安があるため、49152以上の数が望ましい
     (略)
     PermitRootLogin no
     PubKeyAuthentication yes
     PasswordAuthentication no
+    ```
+1. 変更を反映する
+    ``` shell
+    $ sudo service sshd restart
     ```
     
 
 ## SSH接続
 #### コマンドラインから接続する
 ``` shell
-$ ssh -i C:\Users\user\.ssh\id_rsa_xxx -p 49152 server_user@xxx.xxx.xxx
+$ ssh -i C:\Users\user\.ssh\id_rsa_xxx -p zzz server_user@xxx.xxx.xxx
 ```
+ポートフォワーディングをしたい場合は`-L [クライアント側ポート]:[サーバー名]:[サーバー側ポート]`を追加する
 #### configを設定する
 1. .ssh/configを作成する
     ``` config
     Host server_user
       HostName xxx.xxx.xxx
       User server_user
-      Port 49152
+      Port zzz
       IdentityFile C:\Users\user\.ssh\id_rsa_XXX
       IdentitiesOnly yes
     ```
-Configを設定すればHost名
+1. Configを設定すればHost名から接続することが可能
     ``` shell
     $ ssh server_user
     ```
