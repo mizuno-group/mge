@@ -1,0 +1,182 @@
+10.1.6.8
+10.1.6.15
+[GPU0] Epoch 0 | Batchsize: 32
+[GPU7] Epoch 0 | Batchsize: 32
+[GPU5] Epoch 0 | Batchsize: 32
+[GPU6] Epoch 0 | Batchsize: 32
+[GPU1] Epoch 0 | Batchsize: 32
+[GPU4] Epoch 0 | Batchsize: 32
+[GPU3] Epoch 0 | Batchsize: 32
+[GPU2] Epoch 0 | Batchsize: 32
+[GPU13] Epoch 0 | Batchsize: 32
+[GPU8] Epoch 0 | Batchsize: 32
+[GPU11] Epoch 0 | Batchsize: 32
+[GPU15] Epoch 0 | Batchsize: 32
+[GPU9] Epoch 0 | Batchsize: 32
+[GPU12] Epoch 0 | Batchsize: 32
+[GPU10] Epoch 0 | Batchsize: 32
+[GPU14] Epoch 0 | Batchsize: 32
+Epoch 0 | Training snapshot saved at snapshot.pt
+[GPU11] Epoch 1 | Batchsize: 32
+[GPU5] Epoch 1 | Batchsize: 32
+[GPU14] Epoch 1 | Batchsize: 32
+[GPU10] Epoch 1 | Batchsize: 32
+[GPU13] Epoch 1 | Batchsize: 32
+[GPU9] Epoch 1 | Batchsize: 32
+[GPU4] Epoch 1 | Batchsize: 32
+[GPU8] Epoch 1 | Batchsize: 32
+[GPU12] Epoch 1 | Batchsize: 32
+[GPU3] Epoch 1 | Batchsize: 32
+[GPU1] Epoch 1 | Batchsize: 32
+[GPU15] Epoch 1 | Batchsize: 32
+[GPU6] Epoch 1 | Batchsize: 32
+[GPU7] Epoch 1 | Batchsize: 32
+[GPU2] Epoch 1 | Batchsize: 32
+Epoch 0 | Training snapshot saved at snapshot.pt
+[GPU0] Epoch 1 | Batchsize: 32
+[GPU9] Epoch 2 | Batchsize: 32
+[GPU6] Epoch 2 | Batchsize: 32
+[GPU13] Epoch 2 | Batchsize: 32
+[GPU4] Epoch 2 | Batchsize: 32
+[GPU10] Epoch 2 | Batchsize: 32
+[GPU7] Epoch 2 | Batchsize: 32
+[GPU12] Epoch 2 | Batchsize: 32
+[GPU2] Epoch 2 | Batchsize: 32
+[GPU14] Epoch 2 | Batchsize: 32
+Epoch 1 | Training snapshot saved at snapshot.pt
+[GPU5] Epoch 2 | Batchsize: 32
+[GPU11] Epoch 2 | Batchsize: 32
+[GPU3] Epoch 2 | Batchsize: 32
+Epoch 1 | Training snapshot saved at snapshot.pt
+[GPU1] Epoch 2 | Batchsize: 32
+[GPU8] Epoch 2 | Batchsize: 32
+[GPU15] Epoch 2 | Batchsize: 32
+[GPU0] Epoch 2 | Batchsize: 32
+[GPU11] Epoch 3 | Batchsize: 32
+[GPU12] Epoch 3 | Batchsize: 32
+[GPU14] Epoch 3 | Batchsize: 32
+[GPU6] Epoch 3 | Batchsize: 32
+[GPU15] Epoch 3 | Batchsize: 32
+[GPU3] Epoch 3 | Batchsize: 32
+[GPU7] Epoch 3 | Batchsize: 32
+[GPU13] Epoch 3 | Batchsize: 32
+Epoch 2 | Training snapshot saved at snapshot.pt
+[GPU2] Epoch 3 | Batchsize: 32
+[GPU1] Epoch 3 | Batchsize: 32
+[GPU10] Epoch 3 | Batchsize: 32
+[GPU9] Epoch 3 | Batchsize: 32
+[GPU4] Epoch 3 | Batchsize: 32
+[GPU5] Epoch 3 | Batchsize: 32
+[GPU8] Epoch 3 | Batchsize: 32
+Epoch 2 | Training snapshot saved at snapshot.pt
+[GPU0] Epoch 3 | Batchsize: 32
+[GPU7] Epoch 4 | Batchsize: 32
+[GPU11] Epoch 4 | Batchsize: 32
+[GPU12] Epoch 4 | Batchsize: 32
+[GPU1] Epoch 4 | Batchsize: 32
+[GPU6] Epoch 4 | Batchsize: 32
+[GPU10] Epoch 4 | Batchsize: 32
+[GPU13] Epoch 4 | Batchsize: 32
+[GPU4] Epoch 4 | Batchsize: 32
+[GPU15] Epoch 4 | Batchsize: 32
+[GPU5] Epoch 4 | Batchsize: 32
+[GPU14] Epoch 4 | Batchsize: 32
+[GPU2] Epoch 4 | Batchsize: 32
+[GPU9] Epoch 4 | Batchsize: 32
+[GPU3] Epoch 4 | Batchsize: 32
+Epoch 3 | Training snapshot saved at snapshot.pt
+Epoch 3 | Training snapshot saved at snapshot.pt
+[GPU8] Epoch 4 | Batchsize: 32
+[GPU0] Epoch 4 | Batchsize: 32
+[GPU9] Epoch 5 | Batchsize: 32
+[GPU12] Epoch 5 | Batchsize: 32
+[GPU2] Epoch 5 | Batchsize: 32
+[GPU13] Epoch 5 | Batchsize: 32
+[GPU10] Epoch 5 | Batchsize: 32
+[GPU4] Epoch 5 | Batchsize: 32
+[GPU7] Epoch 5 | Batchsize: 32
+[GPU11] Epoch 5 | Batchsize: 32
+Epoch 4 | Training snapshot saved at snapshot.pt
+[GPU5] Epoch 5 | Batchsize: 32
+[GPU15] Epoch 5 | Batchsize: 32
+[GPU3] Epoch 5 | Batchsize: 32
+[GPU14] Epoch 5 | Batchsize: 32
+[GPU6] Epoch 5 | Batchsize: 32
+Epoch 4 | Training snapshot saved at snapshot.pt
+[GPU1] Epoch 5 | Batchsize: 32
+[GPU8] Epoch 5 | Batchsize: 32
+[GPU0] Epoch 5 | Batchsize: 32
+[GPU7] Epoch 6 | Batchsize: 32
+[GPU5] Epoch 6 | Batchsize: 32
+[GPU15] Epoch 6 | Batchsize: 32
+[GPU12] Epoch 6 | Batchsize: 32
+[GPU1] Epoch 6 | Batchsize: 32
+[GPU4] Epoch 6 | Batchsize: 32
+[GPU9] Epoch 6 | Batchsize: 32
+[GPU6] Epoch 6 | Batchsize: 32
+[GPU13] Epoch 6 | Batchsize: 32
+[GPU11] Epoch 6 | Batchsize: 32
+[GPU3] Epoch 6 | Batchsize: 32
+[GPU10] Epoch 6 | Batchsize: 32
+[GPU14] Epoch 6 | Batchsize: 32
+[GPU2] Epoch 6 | Batchsize: 32
+Epoch 5 | Training snapshot saved at snapshot.pt
+Epoch 5 | Training snapshot saved at snapshot.pt
+[GPU8] Epoch 6 | Batchsize: 32
+[GPU0] Epoch 6 | Batchsize: 32
+[GPU14] Epoch 7 | Batchsize: 32
+[GPU11] Epoch 7 | Batchsize: 32
+[GPU7] Epoch 7 | Batchsize: 32
+[GPU13] Epoch 7 | Batchsize: 32
+[GPU5] Epoch 7 | Batchsize: 32
+[GPU12] Epoch 7 | Batchsize: 32
+[GPU4] Epoch 7 | Batchsize: 32
+[GPU9] Epoch 7 | Batchsize: 32
+[GPU3] Epoch 7 | Batchsize: 32
+[GPU10] Epoch 7 | Batchsize: 32
+[GPU1] Epoch 7 | Batchsize: 32
+[GPU15] Epoch 7 | Batchsize: 32
+[GPU6] Epoch 7 | Batchsize: 32
+[GPU2] Epoch 7 | Batchsize: 32
+Epoch 6 | Training snapshot saved at snapshot.pt
+Epoch 6 | Training snapshot saved at snapshot.pt
+[GPU8] Epoch 7 | Batchsize: 32
+[GPU0] Epoch 7 | Batchsize: 32
+[GPU4] Epoch 8 | Batchsize: 32
+[GPU3] Epoch 8 | Batchsize: 32
+[GPU5] Epoch 8 | Batchsize: 32
+[GPU15] Epoch 8 | Batchsize: 32
+[GPU1] Epoch 8 | Batchsize: 32
+[GPU14] Epoch 8 | Batchsize: 32
+[GPU2] Epoch 8 | Batchsize: 32
+[GPU13] Epoch 8 | Batchsize: 32
+[GPU6] Epoch 8 | Batchsize: 32
+[GPU9] Epoch 8 | Batchsize: 32
+[GPU11] Epoch 8 | Batchsize: 32
+[GPU12] Epoch 8 | Batchsize: 32
+[GPU7] Epoch 8 | Batchsize: 32
+[GPU10] Epoch 8 | Batchsize: 32
+Epoch 7 | Training snapshot saved at snapshot.pt
+[GPU0] Epoch 8 | Batchsize: 32
+Epoch 7 | Training snapshot saved at snapshot.pt
+[GPU8] Epoch 8 | Batchsize: 32
+[GPU15] Epoch 9 | Batchsize: 32
+[GPU1] Epoch 9 | Batchsize: 32
+[GPU12] Epoch 9 | Batchsize: 32
+[GPU3] Epoch 9 | Batchsize: 32
+[GPU11] Epoch 9 | Batchsize: 32
+[GPU6] Epoch 9 | Batchsize: 32
+[GPU4] Epoch 9 | Batchsize: 32
+[GPU7] Epoch 9 | Batchsize: 32
+[GPU14] Epoch 9 | Batchsize: 32
+[GPU13] Epoch 9 | Batchsize: 32
+[GPU5] Epoch 9 | Batchsize: 32
+[GPU9] Epoch 9 | Batchsize: 32
+[GPU10] Epoch 9 | Batchsize: 32
+[GPU2] Epoch 9 | Batchsize: 32
+Epoch 8 | Training snapshot saved at snapshot.pt
+Epoch 8 | Training snapshot saved at snapshot.pt
+[GPU0] Epoch 9 | Batchsize: 32
+[GPU8] Epoch 9 | Batchsize: 32
+Epoch 9 | Training snapshot saved at snapshot.pt
+Epoch 9 | Training snapshot saved at snapshot.pt
