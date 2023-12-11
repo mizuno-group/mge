@@ -1,0 +1,45 @@
+filsev-HDD1:
+  node-name: filsev-desktop
+  node-ip: 192.168.1.10
+  local: /mnt/local/HDD1
+  device: /dev/sdb
+filsev-HDD2:
+  node-name: filsev-desktop
+  node-ip: 192.168.1.10
+  local: /mnt/local/HDD2
+  device: /dev/sdc
+hiegm1-HDD:
+  node-name: hiegm1-System-Product-Name
+  node-ip: 192.168.1.12
+  local: /mnt/local/HDD
+  device: /dev/sda
+hiegm2-HDD:
+  node-name: hiegm2-System-Product-Name
+  node-ip: 192.168.1.13
+  local: /mnt/local/HDD
+  device: /dev/sda
+hiegm3-HDD:
+  node-name: hiegm3-System-Product-Name
+  node-ip: 192.168.1.14
+  local: /mnt/local/HDD
+  device: /dev/sda
+extHDD1:
+  node-name: hiegm2-System-Product-Name
+  node-ip: 192.168.1.13
+  local: /mnt/local/extHDD1
+  device: /dev/sdb1
+extHDD2:
+  node-name: hiegm2-System-Product-Name
+  node-ip: 192.168.1.13
+  local: /mnt/local/extHDD2
+  device: /dev/sdc1
+extHDD4:
+  node-name: hiegm2-System-Product-Name
+  node-ip: 192.168.1.13
+  local: /mnt/local/extHDD4
+  device: /dev/sdd1
+extHDD5:
+  node-name: hiegm2-System-Product-Name
+  node-ip: 192.168.1.13
+  local: /mnt/local/extHDD5
+  device: /dev/sde1

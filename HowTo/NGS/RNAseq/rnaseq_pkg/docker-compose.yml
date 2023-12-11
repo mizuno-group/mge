@@ -1,0 +1,37 @@
+### history ###
+# 220722 add .env
+# 211227 changed the version from 3 to 3.2
+# 211227 changed volume indication to long syntax
+# 211227 build
+version: '3.2'
+
+services:
+  prinseq:
+    build:
+      context: ./prinseq
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - type: bind
+        source: ${BSRC}
+        target: /workspace
+  
+  salmon:
+    build:
+      context: ./salmon
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - type: bind
+        source: ${BSRC}
+        target: /workspace
+
+  tximport:
+    build:
+      context: ./tximport
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - type: bind
+        source: ${BSRC}
+        target: /workspace

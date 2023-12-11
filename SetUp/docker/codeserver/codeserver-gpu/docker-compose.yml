@@ -1,0 +1,37 @@
+### history ###
+# 220421 launched
+
+### note ###
+# ports
+# - <host IP>:<host port>:<container port>
+# command
+# - the path after --bind-addr is the working directory in WSL2
+# - --port indicates the exposed port
+
+### ToDo ###
+# how to activate extension and save them
+# how to skip authentification
+
+version: '3'
+
+services:
+  test:
+    build:
+      context: ./codesev
+      dockerfile: Dockerfile
+    restart: always
+    runtime: nvidia
+    command: code-server --port 8095 --bind-addr=0.0.0.0:8095 /workspace --log debug
+    ports:
+     - '8095:8095'
+    environment:
+     - PASSWORD=cs24771
+     - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+     - /mnt/cluster/filsev-HDD1/data_nemoto:/workspace # change according to the environment
+    tty: true
+    deploy:
+      resources:
+        limits:
+          cpus: '0.9'
+
