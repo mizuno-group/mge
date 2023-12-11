@@ -1,0 +1,18 @@
+### history ###
+# 220905 summarize into one docker file
+# 220722 add .env
+# 211227 changed the version from 3 to 3.2
+# 211227 changed volume indication to long syntax
+# 211227 build
+version: '3.2'
+
+services:
+  ngs:
+    build:
+      context: ./ngs
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - type: bind
+        source: ${BSRC}
+        target: /workspace
