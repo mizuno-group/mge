@@ -1,0 +1,24 @@
+### mandatory
+# Note all paths are those of the host machine
+INPUT_DIR="/home/miz201201/morita/test/data"
+SPECIES="mouse"
+SEQ_END="single"
+RES_ONLY=true
+
+### option 1 (often modified)
+SALMON_IDX_PATH=""
+TX_GTF_PATH=""
+EXTENSION="fastq.gz"
+
+### option 2 (rarely modified)
+HUMAN_Tx=https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_41/gencode.v41.transcripts.fa.gz
+HUMAN_Gen=https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_41/GRCh38.primary_assembly.genome.fa.gz
+MOUSE_Tx=https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M30/gencode.vM30.transcripts.fa.gz
+MOUSE_Gen=https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M30/GRCm39.primary_assembly.genome.fa.gz
+RAT_Tx=ftp://ftp.ensembl.org/pub/release-107/fasta/rattus_norvegicus/cdna/Rattus_norvegicus.mRatBN7.2.cdna.all.fa.gz
+RAT_Gen=ftp://ftp.ensembl.org/pub/release-107/fasta/rattus_norvegicus/dna_index/Rattus_norvegicus.mRatBN7.2.dna.toplevel.fa.gz
+HUMAN_GTF="https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_41/gencode.v41.annotation.gtf.gz"
+MOUSE_GTF="https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M30/gencode.vM30.annotation.gtf.gz"
+RAT_GTF="http://ftp.ensembl.org/pub/release-107/gtf/rattus_norvegicus/Rattus_norvegicus.mRatBN7.2.107.gtf.gz"
+OUTPUT_EXP="expression"
+OUTPUT_TX="transcript"

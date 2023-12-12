@@ -1,0 +1,36 @@
+# contextは./application_container
+# bindのsourceは.envより読み込ませる
+# bindのtargetは/workspaceに固定, Dockerfile上でハードコーディングしている
+
+version: '3.2'
+
+services:
+  prinseq:
+    build:
+      context: ./app1
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - type: bind
+        source: ${BSRC}
+        target: /workspace
+  
+  salmon:
+    build:
+      context: ./app2
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - type: bind
+        source: ${BSRC}
+        target: /workspace
+
+  tximport:
+    build:
+      context: ./app3
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - type: bind
+        source: ${BSRC}
+        target: /workspace

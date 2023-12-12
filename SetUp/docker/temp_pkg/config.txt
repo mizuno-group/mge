@@ -1,0 +1,11 @@
+### mandatory
+# Note all paths are those of the host machine, not of containers
+INPUT_DIR="/mnt/data1/rnaseq/test"
+SPECIES="human"
+
+### option
+SALMON_IDX_PATH=""
+TX_GTF_PATH=""
+EXTENSION="fq.gz"
+OUTPUT_EXP="expression"
+OUTPUT_TX="transcript"
