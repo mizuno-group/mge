@@ -2,7 +2,7 @@
 　先日行ったセットアップの際のピットフォールの共有です。  
 
 ## １インストールメディアの作成    
-U-tokyoのマイクロソフトアカウントでは、現在windows10、windows11のインストールを行うことができます。  
+U-tokyoのマイクロソフトアカウントでは、現在windows10、windows11のインストールを行うことができる。  
 ただし、どちらか一方をダウンロードすると、もう一方をダウンロードできない。  
 [こちらのサイト](https://utokyo.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?cmi_cs=1&cmi_mnuMain=f4b2ea63-9ba9-e511-9413-b8ca3a5db7a1)からダウンロードできる。  
 
